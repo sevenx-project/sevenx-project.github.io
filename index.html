@@ -1,37 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SevenX</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <title>SevenX - A currency for Telegram</title>
 </head>
-<body">
-    <header id="header">
-        <h1>SevenX, the people's currency.</h1>
-        <img src="assets/banner.png" alt="SevenX logo" width="300" height="150">
+<body>
+    <header>
+        <img id="logo" src="assets/banner-white.png" alt="SevenX Logo">
+        <p>The people's currency</p>
     </header>
-    <main>
-        <h2>What is SevenX?</h2>
-        <p class="text" id="what">
-            SevenX is a virtual currency for Telegram that allows users to send and receive money seamlessly within the Telegram ecosystem. <br> The official bot facilitates the usage of SevenX, making transactions and account management simple and efficient.
-        </p>
-        <h2>Features</h2>
-        <ul class="text" id="features">
-            <li>Send and Receive SevenX: Easily send SevenX tokens to other users on Telegram.</li>
-            <li>Check Balance: Quickly check your SevenX balance with a simple command.</li>
-            <li>Transaction History: View your recent transactions.</li>
-            <li>Request SevenX: Request SevenX from other users.</li>
-        </ul>
-        <h2>Platforms</h2>
-        <p>SevenX currently only supports Telegram, but we are working to bring it to other platforms like Discord. If you would like SevenX to support other platforms, you can always help by forking the GitHub repository.</p>
-        <h2>Support</h2>
-        <p class="text" id="support">If you encounter any issues or have any questions, feel free to open an issue in our GitHub repo.</p>
-        <h2>Links</h2>
-        <p id="links">Use our offical Telegram bot <a href="https://t.me/SevenXC_bot">here</a> or see the source code at our <a href="https://github.com/sevenx-project/SevenX/tree/main">GitHub repository</a>.</p>
-    </main>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="SevenX.pdf">Whitepaper</a>
+        <a href="exchange.html">Exchange</a>
+    </nav>
+
+    <section id="home">
+        <div class="what">
+            <h2>What is SevenX?</h2>
+            <p>SevenX is a virtual currency for Telegram that allows users to send and receive money seamlessly within the Telegram ecosystem. The official bot facilitates the usage of SevenX, making transactions and account management simple and efficient.
+            </p>
+        </div>
+        <div class="button">
+            <a href="https://github.com/sevenx-project/SevenX">GitHub Repo</a>
+            <a href="https://t.me/SevenXC_bot">Telegram Bot</a>
+        </div>
+        <div class="features">
+            <h2>Features</h2>
+            <ul>
+                <li>Send and Receive SevenX: Easily send SevenX tokens to other users on Telegram.</li>
+                <li>Check Balance: Quickly check your SevenX balance with a simple command.</li>
+                <li>Transaction History: View your recent transactions.</li>
+                <li>Request SevenX: Request SevenX from other users.</li>
+            </ul>
+        </div>
+        <div class="support"></div>
+            <h2>Support</h2>
+            <p class="left">If you encounter any issues or have any questions, feel free to open an issue in our GitHub repo and we will answer as soon as possible.
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 SevenX. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
