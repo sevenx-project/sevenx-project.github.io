@@ -1,17 +1,19 @@
 body {
+  display: flex;
+  flex-direction: column;
   font-family: Arial, sans-serif;
   background-color: #f0f8ff;
-  color: #333;
   margin: 0;
   padding: 0;
 }
 
-.left{
-  text-align: left;
-}
-
-.right {
-  text-align: right;
+.home {
+  color: #ffffff;
+  background-image: linear-gradient(rgba(173, 216, 230, 0.7), rgba(173, 216, 230, 0.7)), url(/assets/background.webp);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 #logo {
@@ -42,31 +44,36 @@ nav a:hover {
 }
 
 section {
+  font-size: medium;
   padding: 20px;
   text-align: center;
+  justify-content: start;
+}
+
+p {
+  font-weight: 600;
 }
 
 .what {
-  background-color: #dfefff;
+  /* background-color: #dfefff; */
   padding: 20px;
-  border: 1px solid #a0c4ff;
-  margin-bottom: 20px;
-}
-
-.exchange {
-  background-color: #dfefff;
-  padding: 20px;
-  border: 1px solid #a0c4ff;
+  /* border: 1px solid #a0c4ff; */
   margin-bottom: 20px;
 }
 
 .features {
   padding: 20px;
-  margin-top:50px;
+  margin: auto;
+  max-width: 60%;
 }
 
 .features ul {
-  text-align: left;
+  text-align: start;
+  font-weight: 600;
+}
+
+.support {
+  text-align: center;
 }
 
 .button {
@@ -76,7 +83,7 @@ section {
   margin-top: 20px;
 }
 
-.button a {
+.buttons a {
   background-color: #004080;
   color: white;
   padding: 10px 20px;
@@ -84,7 +91,7 @@ section {
   border-radius: 5px;
 }
 
-.button a:hover {
+.buttons a:hover {
   background-color: #003366;
 }
 
@@ -96,4 +103,9 @@ footer {
   position: fixed;
   width: 100%;
   bottom: 0;
+}
+
+.exchange {
+  color: #212121;
+  background-color: #f0f8fe;
 }
